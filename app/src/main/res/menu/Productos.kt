@@ -26,4 +26,7 @@ interface ProductosDao{
 
  @Query(value =  "SELECT * FROM Productos WHERE ProductosId= :key")
  suspend fun  Find (key: Long): Productos?
+ fun Insert(productos: Productos) {
+
+ }
 }
