@@ -22,8 +22,7 @@
             android:id="@+id/productoIdTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="productosid"
-            android:textSize="20sp"/>
+            android:hint="@string/productoid"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -41,7 +40,7 @@
             android:id="@+id/descripcionTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Descripcion" />
+            android:hint="@string/descripcion" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -59,7 +58,7 @@
             android:id="@+id/existenciaTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Existencia" />
+            android:hint="@string/existencia" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -77,7 +76,7 @@
             android:id="@+id/costoTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Costo" />
+            android:hint="@string/costo" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -95,15 +94,14 @@
             android:id="@+id/valorInventarioTextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Inventario" />
+            android:hint="@string/invertario" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <Button
         android:id="@+id/nuevoButton"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Nuevo"
+        android:text="@string/nuevo"
         app:layout_constraintBaseline_toBaselineOf="@+id/guardarButton"
         app:layout_constraintEnd_toStartOf="@+id/guardarButton"
         app:layout_constraintHorizontal_bias="0.5"
@@ -111,9 +109,9 @@
 
     <Button
         android:id="@+id/guardarButton"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Guardar"
+        android:text="@string/guardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/eliminarButton"
         app:layout_constraintHorizontal_bias="0.5"
@@ -122,14 +120,11 @@
 
     <Button
         android:id="@+id/eliminarButton"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Eliminar"
+        android:text="@string/eliminar"
         app:layout_constraintBaseline_toBaselineOf="@+id/guardarButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guardarButton" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
