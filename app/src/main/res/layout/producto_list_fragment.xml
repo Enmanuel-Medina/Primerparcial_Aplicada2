@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProductosList.ProductoListFragment">
+
+
+    <TextView
+        android:id="@+id/labelProductoIdTextView"
+        android:layout_width="31dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:hint="Id"
+        app:layout_constraintEnd_toStartOf="@id/LabelDescripcionTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LabelDescripcionTextView"
+        android:layout_width="116dp"
+        android:layout_height="20dp"
+        android:hint="Descripción"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelProductoIdTextView"
+        app:layout_constraintEnd_toStartOf="@+id/LabelExistenciaTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/labelProductoIdTextView" />
+
+    <TextView
+        android:id="@+id/LabelExistenciaTextView"
+        android:layout_width="74dp"
+        android:layout_height="20dp"
+        android:hint="Existencia"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelProductoIdTextView"
+        app:layout_constraintEnd_toStartOf="@+id/labelCostoTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/LabelDescripcionTextView" />
+
+    <TextView
+        android:id="@+id/labelCostoTextView"
+        android:layout_width="69dp"
+        android:layout_height="20dp"
+        android:hint="Costo"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelProductoIdTextView"
+        app:layout_constraintEnd_toStartOf="@+id/LabelValorInventarioTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/LabelExistenciaTextView" />
+
+    <TextView
+        android:id="@+id/LabelValorInventarioTextView"
+        android:layout_width="103dp"
+        android:layout_height="0dp"
+        android:hint="ValorInventario"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelProductoIdTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/labelCostoTextView" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

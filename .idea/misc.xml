@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/blank_fragment.xml" value="0.16576086956521738" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/fragment_gallery.xml" value="0.16576086956521738" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/fragment_home.xml" value="0.16576086956521738" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/fragment_slideshow.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/nav_header_main.xml" value="0.11676798378926039" />
+        <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/producto_list_fragment.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/producto_row.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/productos_edit_fragment.xml" value="0.264" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/productos_fragment.xml" value="0.19519927536231885" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/productos_fragment2.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/layout/productos_list_fragment.xml" value="0.13134057971014493" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nurias/Primerparcial_Aplicada2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25625" />
       </map>
     </option>
   </component>
